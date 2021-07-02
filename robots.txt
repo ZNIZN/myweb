@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://znizn.github.io/myweb/sitemap.xml
