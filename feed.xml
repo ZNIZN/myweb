@@ -3,12 +3,59 @@
     <title>ONION</title>
     <link href="https://znizn.github.io/myweb/feed.xml" rel="self" />
     <link href="https://znizn.github.io/myweb" />
-    <updated>2021-07-02T19:14:28+08:00</updated>
+    <updated>2021-07-03T16:49:20+08:00</updated>
     <author>
         <name>ZHUO</name>
     </author>
     <id>https://znizn.github.io/myweb</id>
 
+    <entry>
+        <title>Publii 配置 GitHub Pages 静态网站</title>
+        <author>
+            <name>ZHUO</name>
+        </author>
+        <link href="https://znizn.github.io/myweb/publii-pei-zhi-github-pages-jing-tai-wang-zhan.html"/>
+        <id>https://znizn.github.io/myweb/publii-pei-zhi-github-pages-jing-tai-wang-zhan.html</id>
+            <category term="静态网站"/>
+            <category term="实用性-阐述规则"/>
+            <category term="Publii"/>
+
+        <updated>2021-07-03T16:49:20+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://znizn.github.io/myweb/media/posts/4/Snipaste_2021-07-03_16-48-30.png" alt="" />
+                    设置 GitHub token 配置 Publii 之前需要先设置用于 Publii 使用的 GitHub token，添加 token 方式如下： 创建一个用于存放 GitHub Pages 的仓库，需要注意要添加一个 ReadMe markdown 文件，因为 Publii 的初始化需要仓库中至少有一个文件 创建 GitHub&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://znizn.github.io/myweb/media/posts/4/Snipaste_2021-07-03_16-48-30.png" alt="" />
+                <h2 id="设置-github-token">设置 GitHub token</h2>
+<p>配置 Publii 之前需要先设置用于 Publii 使用的 GitHub token，添加 token 方式如下：</p>
+<p><figure class="post__image"><img loading="lazy" src="https://ftp.bmp.ovh/imgs/2021/07/4cc183aed648937a.gif" data-is-external-image="true"  alt="设置GitHub token" /></figure></p>
+<h2 id="创建-github-仓库">创建 GitHub 仓库</h2>
+<p>创建一个用于存放 GitHub Pages 的仓库，需要注意要添加一个 ReadMe markdown 文件，因为 Publii 的初始化需要仓库中至少有一个文件</p>
+<p><figure class="post__image"><img loading="lazy" src="https://ftp.bmp.ovh/imgs/2021/07/08e69dcc036942a3.gif" data-is-external-image="true"  alt="创建 GitHub 仓库" /></figure></p>
+<h2 id="publii-服务器设置">Publii 服务器设置</h2>
+<p>创建 GitHub 仓库并创建 GitHub Pages，按照 GitHub Pages 的创建方式配置网站，其中 Token 选择上面创建的 Token</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20210702185202322.png" data-is-external-image="true"  alt="image-20210702185202322" /></figure></p>
+<p>完成设置后点击保存，并测试与网络的连接。当测试成功后点击左侧 <code>Sync Your Website</code> 将文件配置到 GitHub 上。</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20210703163936267.png" data-is-external-image="true"  alt="image-20210703163936267" /></figure></p>
+<h2 id="修改主题">修改主题</h2>
+<ol>
+<li><p>在 <a href="https://marketplace.getpublii.com/">主题网站</a> 选择喜欢的主题下载，其中的 Freebies 是免费的主题</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20210703164401748.png" data-is-external-image="true"  alt="image-20210703164401748" /></figure></p>
+</li>
+<li><p>将主题文件解压后复制到 Publii 的主题保存目录下（<code>C:\Users\USER NAME\Documents\Publii\themes</code>）</p>
+</li>
+<li><p>重启 Publii 后可以在【Site settings】中选择刚才复制的主题</p>
+<p><figure class="post__image"><img loading="lazy" src="https://ftp.bmp.ovh/imgs/2021/07/042db264e6339775.gif" data-is-external-image="true"  alt="设置Publii主题" /></figure></p>
+</li>
+</ol>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>This is just a Test</title>
         <author>
@@ -17,16 +64,14 @@
         <link href="https://znizn.github.io/myweb/this-is-just-a-test-2.html"/>
         <id>https://znizn.github.io/myweb/this-is-just-a-test-2.html</id>
 
-        <updated>2021-07-02T19:14:28+08:00</updated>
+        <updated>2021-07-03T16:45:51+08:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://znizn.github.io/myweb/media/posts/3/Snipaste_2021-07-02_12-46-12.png" alt="" />
                     资料整理 产品认识（Product） 关键词：守护昼夜节律天然时钟肌因信源科技 来源：雅诗兰黛全新第七代小棕瓶值得入手吗？ - 知乎 (zhihu.com)； 第七代新成分和功效： ==关键词==：全面维稳效率深度 ==关键词==：逆龄抗皱 论题：压力和不规律的作息影响肌肤自我修复能力 结论： 论据： 论题：肌肤对养分的感知能力变差，导致修复效果变差（年轻时可以轻易回复的肌肤状态在年纪变大后无法做到） 结论： 论据： 论题：年龄增长出现衰老纹 结论： 论据： 论题： 结论： 论据： 问题反馈：&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://znizn.github.io/myweb/media/posts/3/Snipaste_2021-07-02_12-46-12.png" alt="" />
                 <h2 id="资料整理">资料整理</h2>
 <h3 id="产品认识（product）">产品认识（Product）</h3>
 <p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20210702113518381.png" data-is-external-image="true"  alt="image-20210702113518381" /></figure></p>
