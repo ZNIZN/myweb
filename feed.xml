@@ -3,12 +3,100 @@
     <title>ONION</title>
     <link href="https://znizn.github.io/myweb/feed.xml" rel="self" />
     <link href="https://znizn.github.io/myweb" />
-    <updated>2021-07-05T11:59:15+08:00</updated>
+    <updated>2021-07-05T15:22:18+08:00</updated>
     <author>
         <name>ZHUO</name>
     </author>
     <id>https://znizn.github.io/myweb</id>
 
+    <entry>
+        <title>TTRSS 阅读优化方案</title>
+        <author>
+            <name>ZHUO</name>
+        </author>
+        <link href="https://znizn.github.io/myweb/ttrss-yue-du-you-hua-fang-an.html"/>
+        <id>https://znizn.github.io/myweb/ttrss-yue-du-you-hua-fang-an.html</id>
+            <category term="实用性-阐述规则"/>
+            <category term="Unread"/>
+            <category term="RSS Tracker"/>
+            <category term="Fever"/>
+
+        <updated>2021-07-05T15:22:18+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://znizn.github.io/myweb/media/posts/9/Snipaste_2021-07-05_15-21-33.png" alt="" />
+                    RSS Tracker 优化桌面端阅读体验 下载 RSS Tracker 下载地址：https://www.microsoft.com/store/apps/9N85PV1RJD6V RSS Tracker 提供试用版本，为期七天。 在部署好的 Tiny Tiny RSS 中开启 Fever API，先在插件目录下打开 Fever 插件 保存后可以在下方的 Fever Emulation 中设置&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://znizn.github.io/myweb/media/posts/9/Snipaste_2021-07-05_15-21-33.png" alt="" />
+                <h2 id="rss-tracker-优化桌面端阅读体验">RSS Tracker 优化桌面端阅读体验</h2>
+<h3 id="下载-rss-tracker">下载 RSS Tracker</h3>
+<p>下载地址：<a href="https://www.microsoft.com/store/apps/9N85PV1RJD6V">https://www.microsoft.com/store/apps/9N85PV1RJD6V</a></p>
+<p>RSS Tracker 提供试用版本，为期七天。</p>
+<h3 id="配置-fever">配置 Fever</h3>
+<p>在部署好的 Tiny Tiny RSS  中开启 Fever API，先在插件目录下打开 Fever 插件</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20201204125533127.png" data-is-external-image="true"  alt="image-20201204125533127" /></figure></p>
+<p>保存后可以在下方的 Fever Emulation 中设置 Fever API 的密码</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20201204125637258.png" data-is-external-image="true"  alt="image-20201204125637258" /></figure></p>
+<h3 id="启用-fever-api-与相关配置">启用 Fever API 与相关配置</h3>
+<p>选择 Fever 的登录选项</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20201204125842108.png" data-is-external-image="true"  alt="image-20201204125842108" /></figure></p>
+<p>在登录界面中输入 Fever API 的地址，比如我的是 <code>http://www.zhuottrss.top/plugins/fever/</code>。账号名称为 <code>admin</code> ，密码为刚才在 Tiny Tiny RSS 中配置的密码</p>
+<img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20201204130050504.png" data-is-external-image="true"  alt="image-20201204130050504" style="zoom: 67%;" />
+
+
+
+<p>登录结果如下图所示，点击【Confirmed &amp; Next】进入下一项配置</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20201204130132136.png" data-is-external-image="true"  alt="image-20201204130132136" /></figure></p>
+<p>设置软件的基础配置，点击【Confirmed &amp; Next】即可完成全部的配置</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20201204130326267.png" data-is-external-image="true"  alt="image-20201204130326267" /></figure></p>
+<p>结果展示如下：</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20201204130436854.png" data-is-external-image="true"  alt="image-20201204130436854" /></figure></p>
+<h2 id="unread-优化移动端阅读体验">Unread 优化移动端阅读体验</h2>
+<h3 id="下载-unread">下载 Unread</h3>
+<p>可以支持 Fever API 的有 Feeder 和 Unread，由于第一款软件无法在国服 APP store 下载到，因此选择 Unread 作为移动端阅读软件。</p>
+<h3 id="启动-fever-api">启动 Fever API</h3>
+<p>软件打开后如下图所示，其中的 Fever 是已经配置完成的结果。点击其中的【ADD AN ACCONT】</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20201206174721558.png" data-is-external-image="true"  alt="image-20201206174721558" /></figure></p>
+<p>呼出菜单中选择【FEVER】</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20201206174806512.png" data-is-external-image="true"  alt="image-20201206174806512" /></figure></p>
+<p>填入 TTRSS 的网址，然后点击【NEXT】后填入上面创建的账号和密码</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20201206174859354.png" data-is-external-image="true"  alt="image-20201206174859354" /></figure></p>
+<p>配置完成后结果如下：</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20201206175014255.png" data-is-external-image="true"  alt="image-20201206175014255" /></figure></p>
+<h2 id="总结">总结</h2>
+<p>根据目前的使用体验来看，RSS Tracker 有如下优缺点</p>
+<p>优点：</p>
+<ul>
+<li>优化阅读体验，更好的信息流展示方式和阅读方式</li>
+<li>提供翻译服务</li>
+<li>提供朗读服务</li>
+<li>提供更方便的全文抓取服务，即自动全文抓取选定信息源的内容</li>
+</ul>
+<p>缺点：</p>
+<ul>
+<li>部分文章全文抓取速度相比 mercury 要慢</li>
+<li>列表视图在笔记本上的体验稍差，无法自定义列表和原文的显示大小</li>
+<li>订阅新源需要回到 Tiny Tiny RSS </li>
+<li>没有【已收藏】的图标</li>
+<li>当选择查看未读文章时，如果文章量比较大可能导致软件崩溃</li>
+</ul>
+<p>整体而言，RSS Tracker 提供了相当完整的 RSS 阅读服务，很大程度优化了桌面客户端的阅读体验。</p>
+<hr>
+<blockquote>
+<p>参考资料：</p>
+<ul>
+<li><a href="https://www.richasy.cn/document/rss/use.html">软件使用说明 | 云乡 (richasy.cn)</a>；</li>
+<li><a href="https://www.bilibili.com/video/BV1Lt4y1Q7Be">【UWP】有趣的RSS阅读器，RSS追踪全新版本上线_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili</a>；</li>
+<li><a href="https://segmentfault.com/a/1190000020180496">Tiny Tiny RSS + fever 搭建自己的 RSS 服务_前端博客 - SegmentFault 思否</a>；</li>
+</ul>
+</blockquote>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Publii 配置 GitHub Pages 静态网站</title>
         <author>
@@ -57,6 +145,285 @@
 <p><strong>参考资料</strong>：</p>
 <ul>
 <li><a href="https://getpublii.com/docs/host-static-website-github-pages.html">Publii 官方文档</a>；</li>
+</ul>
+</blockquote>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>使用 WordPress 搭建动态博客</title>
+        <author>
+            <name>ZHUO</name>
+        </author>
+        <link href="https://znizn.github.io/myweb/shi-yong-wordpress-da-jian-dong-tai-bo-ke.html"/>
+        <id>https://znizn.github.io/myweb/shi-yong-wordpress-da-jian-dong-tai-bo-ke.html</id>
+            <category term="实用性-阐述规则"/>
+            <category term="动态博客"/>
+            <category term="WordPress"/>
+
+        <updated>2021-07-05T15:18:03+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://znizn.github.io/myweb/media/posts/8/2019-02-04_233346.jpg" alt="" />
+                    云服务器自动搭建 以腾讯云服务器为例： 点击【重置应用】 点击【应用镜像】，选择【WordPress】，勾选上确定声明后点击【确定】 点击【应用管理】 点击【登录】 打开 credentials.txt ，并记住其中的密码 cat ~lighthouse/credentials.txt 登录管理员登录地址，然后输入刚才的账户名和密码 现在可以登录 WordPress 配置和撰写博客了 搭建过程参考 搭建LNMP mysql 执行以下命令，创建 MariaDB 数据库。例如 “wordpress”。 CREATE&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://znizn.github.io/myweb/media/posts/8/2019-02-04_233346.jpg" alt="" />
+                <h2 id="云服务器自动搭建">云服务器自动搭建</h2>
+<p>以腾讯云服务器为例：</p>
+<ol>
+<li><p>点击【重置应用】</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20201129163957156.png" data-is-external-image="true"  alt="image-20201129163957156" /></figure></p>
+</li>
+<li><p>点击【应用镜像】，选择【WordPress】，勾选上确定声明后点击【确定】</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20201129164049051.png" data-is-external-image="true"  alt="image-20201129164049051" /></figure></p>
+</li>
+<li><p>点击【应用管理】</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20201129182926625.png" data-is-external-image="true"  alt="image-20201129182926625" /></figure></p>
+</li>
+<li><p>点击【登录】</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20201129182942189.png" data-is-external-image="true"  alt="image-20201129182942189" /></figure></p>
+</li>
+<li><p>打开 <code>credentials.txt</code> ，并记住其中的密码</p>
+</li>
+</ol>
+<pre><code class="language-bash">cat ~lighthouse/credentials.txt
+</code></pre>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20201129183216979.png" data-is-external-image="true"  alt="image-20201129183216979" /></figure></p>
+<ol start="6">
+<li><p>登录管理员登录地址，然后输入刚才的账户名和密码</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20201129183303001.png" data-is-external-image="true"  alt="image-20201129183303001" /></figure></p>
+</li>
+<li><p>现在可以登录 WordPress 配置和撰写博客了</p>
+</li>
+</ol>
+<h2 id="手动搭建">手动搭建</h2>
+<h4 id="搭建lnmp环境">搭建LNMP环境</h4>
+<p>搭建过程参考 <a href="">搭建LNMP</a> </p>
+<h4 id="配置数据库">配置数据库</h4>
+<ol>
+<li>执行以下命令，进入 MariaDB。</li>
+</ol>
+<pre><code class="language-bash">mysql
+</code></pre>
+<ol start="2">
+<li>执行以下命令，创建 MariaDB 数据库。例如 “wordpress”。</li>
+</ol>
+<pre><code class="language-bash">CREATE DATABASE wordpress;
+</code></pre>
+<ol start="3">
+<li>执行以下命令，创建一个新用户。例如 “user”，登录密码为 <code>123456</code>。</li>
+</ol>
+<pre><code class="language-bash">CREATE USER &#39;user&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;123456&#39;;
+</code></pre>
+<ol start="4">
+<li>执行以下命令，赋予用户对 “wordpress” 数据库的全部权限。</li>
+</ol>
+<pre><code class="language-bash">GRANT ALL PRIVILEGES ON wordpress.* TO &#39;user&#39;@&#39;localhost&#39; IDENTIFIED BY &#39;123456&#39;;
+</code></pre>
+<ol start="5">
+<li><p>执行以下命令，设置 root 帐户密码。</p>
+<blockquote>
+<p>说明：MariaDB 10.4 在 CentOS 系统上已增加了 root 帐户免密登录功能，请执行以下步骤设置您的 root 帐户密码并牢记。</p>
+</blockquote>
+</li>
+</ol>
+<pre><code class="language-bash">ALTER USER root@localhost IDENTIFIED VIA mysql_native_password USING PASSWORD(&#39;输入您的密码&#39;);
+</code></pre>
+<ol start="6">
+<li>执行以下命令，使所有配置生效。</li>
+</ol>
+<pre><code class="language-bash">FLUSH PRIVILEGES;
+</code></pre>
+<ol start="7">
+<li>执行以下命令，退出 MariaDB。</li>
+</ol>
+<pre><code class="language-bash">\q
+</code></pre>
+<h4 id="安装和配置wordpress">安装和配置WordPress</h4>
+<h6 id="下载-wordpress">下载 WordPress</h6>
+<blockquote>
+<p>说明：WordPress 可从 WordPress 官方网站下载 WordPress 最新中文版本并安装，本教程采用 WordPress 中文版本。</p>
+</blockquote>
+<ol>
+<li>执行以下命令，删除网站根目录下用于测试 PHP-Nginx 配置的 <code>index.php</code> 文件。</li>
+</ol>
+<pre><code class="language-bash">rm -rf /usr/share/nginx/html/index.php
+</code></pre>
+<ol start="2">
+<li>依次执行以下命令，进入 <code>/usr/share/nginx/html/</code> 目录，并下载与解压 WordPress。</li>
+</ol>
+<pre><code class="language-bash">cd /usr/share/nginx/html
+
+wget https://cn.wordpress.org/wordpress-5.0.4-zh_CN.tar.gz
+
+tar zxvf wordpress-5.0.4-zh_CN.tar.gz
+</code></pre>
+<h6 id="修改-wordpress-配置文件">修改 WordPress 配置文件</h6>
+<ol>
+<li>依次执行以下命令，进入 WordPress 安装目录，将 <code>wp-config-sample.php</code> 文件复制到 <code>wp-config.php</code> 文件中，并将原先的示例配置文件保留作为备份。</li>
+</ol>
+<pre><code class="language-bash">cd /usr/share/nginx/html/wordpress
+
+cp wp-config-sample.php wp-config.php
+</code></pre>
+<ol start="2">
+<li>执行以下命令，打开并编辑新创建的配置文件。</li>
+</ol>
+<pre><code class="language-bash">vim wp-config.php
+</code></pre>
+<ol start="3">
+<li>按 <kbd>i</kbd> 切换至编辑模式，找到文件中 MySQL 的部分，并将相关配置信息修改为 <a href="https://cloud.tencent.com/document/product/213/8044#database">配置 WordPress 数据库</a> 中的内容。</li>
+</ol>
+<pre><code class="language-bash">// ** MySQL settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+define(&#39;DB_NAME&#39;, &#39;wordpress&#39;);
+   
+/** MySQL database username */
+define(&#39;DB_USER&#39;, &#39;user&#39;);
+   
+/** MySQL database password */
+define(&#39;DB_PASSWORD&#39;, &#39;123456&#39;);
+   
+/** MySQL hostname */
+define(&#39;DB_HOST&#39;, &#39;localhost&#39;);
+</code></pre>
+<ol start="4">
+<li>修改完成后，按 <kbd>Esc</kbd>，输入 <code>:wq</code>，保存文件返回。</li>
+</ol>
+<h4 id="验证wordpress安装">验证WordPress安装</h4>
+<ol>
+<li>在浏览器地址栏输入 <code>http://域名或云服务器实例的公网 IP/wordpress 文件夹</code>，例如：</li>
+</ol>
+<pre><code class="language-bash">http://192.xxx.xxx.xx/wordpress
+</code></pre>
+<p>   转至 WordPress 安装页，开始配置 WordPress。</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20201129173538851.png" data-is-external-image="true"  alt="image-20201129173538851" /></figure></p>
+<ol start="2">
+<li><p>根据 WordPress 安装向导提示输入以下安装信息，单击【安装 WordPress】，完成安装。</p>
+<table>
+<thead>
+<tr>
+<th align="left">所需信息</th>
+<th align="left">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">站点标题</td>
+<td align="left">WordPress 网站名称。</td>
+</tr>
+<tr>
+<td align="left">用户名</td>
+<td align="left">WordPress 管理员名称。出于安全考虑，建议设置一个不同于 admin 的名称。因为与默认用户名称 admin 相比，该名称更难破解。</td>
+</tr>
+<tr>
+<td align="left">密码</td>
+<td align="left">可以使用默认强密码或者自定义密码。请勿重复使用现有密码，并确保将密码保存在安全的位置。</td>
+</tr>
+<tr>
+<td align="left">您的电子邮件</td>
+<td align="left">用于接收通知的电子邮件地址。</td>
+</tr>
+</tbody></table>
+<p>现在可以用登录 WordPress 博客，并开始发布博客文章了。</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20201129173727307.png" data-is-external-image="true"  alt="image-20201129173727307" /></figure></p>
+</li>
+</ol>
+<h2 id="用-docker-搭建">用 docker 搭建</h2>
+<h4 id="搭建-lnmp-环境">搭建 LNMP 环境</h4>
+<p>搭建方式同上</p>
+<h4 id="安装-docker-和-docker-compose">安装 <code>docker</code> 和 <code>docker-compose</code></h4>
+<h6 id="安装-docker">安装 <code>Docker</code></h6>
+<ol>
+<li>一键安装 <code>Docker</code> </li>
+</ol>
+<pre><code class="language-bash">curl -fsSL https://get.docker.com/ | sh
+</code></pre>
+<blockquote>
+<p>实测该命令在<code>CentOS 8</code>上无法使用，需要手动安装</p>
+</blockquote>
+<ol start="2">
+<li>启动 <code>Docker</code> 服务</li>
+</ol>
+<pre><code class="language-bash">sudo systemctl start docker
+</code></pre>
+<ol start="3">
+<li>检查一下 <code>Docker</code> 是否启动成功</li>
+</ol>
+<pre><code class="language-bash">sudo systemctl status dockersudo systemctl status docker
+</code></pre>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20201026211822324.png" data-is-external-image="true"  alt="image-20201026211822324" /></figure></p>
+<h6 id="安装-docker-compose">安装 <code>docker-compose</code></h6>
+<p><strong>使用 GitHub 的方式安装</strong></p>
+<p>从github上下载docker-compose二进制文件安装 下载最新版的docker-compose文件</p>
+<pre><code class="language-bash">curl -L https://github.com/docker/compose/releases/download/1.16.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+</code></pre>
+<p>添加可执行权限</p>
+<pre><code class="language-bash">chmod +x /usr/local/bin/docker-compose
+</code></pre>
+<p>测试安装结果</p>
+<pre><code class="language-bash">docker-compose --version
+docker-compose version 1.16.1, build 1719ceb
+</code></pre>
+<p><strong>使用 <code>pip</code> 安装</strong></p>
+<p>安装 <code>pip</code> </p>
+<pre><code class="language-bash">yum -y install epel-release
+yum -y install python-pip
+</code></pre>
+<p>安装 <code>docker-compose</code> </p>
+<pre><code class="language-bash">pip install docker-compose
+</code></pre>
+<h4 id="配置-yml-文件">配置 <code>.yml</code> 文件</h4>
+<p>文件配置代码如下所示：</p>
+<pre><code class="language-yaml">version: &#39;3.3&#39;
+
+services:
+   db:
+     image: mysql:5.7
+     volumes:
+       - db_data:/var/lib/mysql
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: somewordpress
+       MYSQL_DATABASE: wordpress
+       MYSQL_USER: wordpress
+       MYSQL_PASSWORD: wordpress
+
+   wordpress:
+     depends_on:
+       - db
+     image: wordpress:latest
+     ports:
+       - &quot;8000:80&quot;
+     restart: always
+     environment:
+       WORDPRESS_DB_HOST: db:3306
+       WORDPRESS_DB_USER: wordpress
+       WORDPRESS_DB_PASSWORD: wordpress
+       WORDPRESS_DB_NAME: wordpress
+volumes:
+    db_data: {}
+</code></pre>
+<h4 id="安装wordpress">安装WordPress</h4>
+<p>新建一个文件夹，将配置好的 <code>docker-compose.yml</code> 文件复制进文件夹，在该文件夹下输入</p>
+<pre><code class="language-bash">docker-compose up -d 
+</code></pre>
+<p>等待安装完成即可，安装完成后可以查看容器运行状态</p>
+<pre><code class="language-bash">docker ps
+</code></pre>
+<p>容器运行情况如下</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20201129114704520.png" data-is-external-image="true"  alt="image-20201129114704520" /></figure></p>
+<p>然后可以在相应端口打开 WordPress 开始配置和撰写博客</p>
+<hr>
+<blockquote>
+<p>参考资料：</p>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV12E41127Uj">个人博客|网站部署终极操作:一行命令搞定!_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili</a>；</li>
+<li><a href="https://cloud.tencent.com/document/product/213/8044">云服务器 手动搭建 WordPress 个人站点（Linux） - 最佳实践 - 文档中心 - 腾讯云 (tencent.com)</a>；</li>
+<li><a href="https://cloud.tencent.com/document/product/1207/45117">轻量应用服务器 使用应用镜像搭建 WordPress 站点 - 最佳实践 - 文档中心 - 腾讯云 (tencent.com)</a>；</li>
 </ul>
 </blockquote>
 
@@ -1045,6 +1412,125 @@ docker-compose up -d
 <li><a href="https://www.vultr.com/docs/how-to-install-tiny-tiny-rss-on-centos-7#Step_1__Update_CentOS_7_to_the_latest_stable_status_using_YUM">How to Install Tiny Tiny RSS on CentOS 7</a>；</li>
 <li>一站式容器化解决方案：<a href="https://ttrss.henry.wang/zh/#%E5%85%B3%E4%BA%8E">Awesome TTRSS</a>；</li>
 <li><a href="https://blog.spencerwoo.com/2020/03/ttrss-noteworthy/">部署中的普遍问题与注意事项</a>；</li>
+</ul>
+</blockquote>
+
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>使用 Hugo 搭建个人静态博客</title>
+        <author>
+            <name>ZHUO</name>
+        </author>
+        <link href="https://znizn.github.io/myweb/shi-yong-hugo-da-jian-ge-ren-jing-tai-bo-ke.html"/>
+        <id>https://znizn.github.io/myweb/shi-yong-hugo-da-jian-ge-ren-jing-tai-bo-ke.html</id>
+            <category term="静态网站"/>
+            <category term="实用性-阐述规则"/>
+            <category term="Hugo"/>
+
+        <updated>2021-07-05T15:14:22+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://znizn.github.io/myweb/media/posts/7/Snipaste_2021-07-05_15-13-38.png" alt="" />
+                    目录说明 layout目录和themes目录都可以控制皮肤，区别在于：hugo会首先查找layout中是否有皮肤文件，因此不需要指令；对于theme中的文件需要额外的指令，相对更加方便导出传递 static目录存放：images, CSS, JavaScript，etc 生成站点 将站点生成到所需路径下 cd d:/hugo/sites hugo new site myblog 将路径设置到需要添加blog的位置 使用hugo new site命令生成blog 设置blog文件夹的名称 在public目录下生成网站的方式 hugo 它会将你的网站设置和内容生成到public目录下，为后面的部署做准备 在 主题列表&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://znizn.github.io/myweb/media/posts/7/Snipaste_2021-07-05_15-13-38.png" alt="" />
+                <h2 id="目录说明">目录说明</h2>
+<ol>
+<li>layout目录和themes目录都可以控制皮肤，区别在于：hugo会首先查找layout中是否有皮肤文件，因此不需要指令；对于theme中的文件需要额外的指令，相对更加方便导出传递</li>
+<li>static目录存放：images, CSS, JavaScript，etc</li>
+</ol>
+<h2 id="生成站点">生成站点</h2>
+<p>将站点生成到所需路径下</p>
+<pre><code class="language-bash">cd d:/hugo/sites
+hugo new site myblog
+</code></pre>
+<ol>
+<li>将路径设置到需要添加blog的位置</li>
+<li>使用hugo new site命令生成blog</li>
+<li>设置blog文件夹的名称</li>
+</ol>
+<p>在public目录下生成网站的方式</p>
+<pre><code class="language-bash">hugo
+</code></pre>
+<p>它会将你的网站设置和内容生成到public目录下，为后面的部署做准备</p>
+<h2 id="设置主题">设置主题</h2>
+<h3 id="clone-主题到-themes-目录">clone 主题到 themes 目录</h3>
+<ol>
+<li><p>在 <a href="https://themes.gohugo.io/">主题列表</a> 中，找到自己喜欢的主题，将主题添加到themes目录下</p>
+<pre><code class="language-bash">cd themes
+git clone 主题网址
+</code></pre>
+<blockquote>
+<ul>
+<li>在 clone 的时候要将主题文件 clone 到 themes 目录下。也可以自己复制到对应目录。</li>
+<li>这里的命令在主题的网页中有，可以直接复制。</li>
+</ul>
+</blockquote>
+</li>
+<li><p>对于一些提供 example site 的主题，可以将文件中的 example site 目录下的文件复制并覆盖掉源blog下的文件</p>
+<h3 id="layout目录">layout目录</h3>
+</li>
+<li><p>layout 目录可以承载以 <code>.html</code> 为格式的模板</p>
+</li>
+<li><p>模板类型包括：single page、partials、list pages、homepage、taxonomy templates</p>
+</li>
+</ol>
+<h2 id="运行hugo">运行hugo</h2>
+<p>执行hugo命令进行调试</p>
+<pre><code class="language-bash">hugo server --theme=主题名称 --buildDrafts
+</code></pre>
+<p>调试完成后可以在本地的 <a href="http://localhost:1313/">local host</a> 上打开</p>
+<h2 id="动态监测">动态监测</h2>
+<p>hugo 在运行网站后，能够动态的调整网站内容，只需要将修改的文件保存后，效果就会在网站上动态显示出来</p>
+<p>关闭动态监测的方式：</p>
+<pre><code class="language-bash">hugo server --watch=false
+
+# 或者
+hugo server --disableLiveReload
+</code></pre>
+<p>这个方法同样可以通过在 <code>config.toml</code> 或 <code>config.yml</code> 中加入以下任意语句达成</p>
+<pre><code class="language-bash">disableLiveReload = true
+
+# 或者
+disableLiveReload ： true
+</code></pre>
+<h2 id="本地编写文章">本地编写文章</h2>
+<p>在 post 目录下生成 markdown 文件</p>
+<pre><code class="language-bash">hugo new post/blog.md
+</code></pre>
+<p>如果只需要创建在 content 下，可以直接生成而不必指明路径</p>
+<pre><code class="language-bash">hugo new blog.md
+</code></pre>
+<h2 id="部署在github上">部署在GitHub上</h2>
+<ol>
+<li>在GitHub上创建一个仓库，并设置好命名和描述——比如将仓库命名为 blog</li>
+<li>在仓库设置中打开 GitHub Pages 设置，并复制生成的 GitHub Pages 网址</li>
+<li>在站点根目录执行 hugo 命令，生成最终页面<pre><code class="language-bash">hugo --theme=主题名称 --baseUrl=&quot;GitHub Pages 网址&quot;
+</code></pre>
+完成后，所有的静态页面都会生成public目录</li>
+<li>将public目录下所有文件push到刚建立的repository的master分支下<pre><code class="language-bash">cd public
+git init
+git remote add origin https://github.com/用户名/仓库名.git
+git add -A
+git commit -m &quot;fist commit&quot;
+git push -u origin master
+</code></pre>
+</li>
+</ol>
+<p>然后在对应的 GitHub Pages 可以打开我们的个人博客</p>
+<hr>
+<blockquote>
+<p>参考资料：</p>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1q4411i7gL">哔哩哔哩：手把手教你从0开始搭建自己的个人博客</a>；</li>
+<li><a href="https://v3u.cn/a_id_81">利用基于Go Lang的Hugo配合nginx来打造属于自己的纯静态博客系统 (v3u.cn)</a>；</li>
+<li><a href="https://themes.gohugo.io/hugo-theme-introduction/">Hugo Theme Introduction | Hugo Themes (gohugo.io)</a>；</li>
+<li><a href="https://www.gohugo.org/">Hugo中文文档 (gohugo.org)</a>；</li>
 </ul>
 </blockquote>
 
