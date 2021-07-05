@@ -3,12 +3,66 @@
     <title>ONION</title>
     <link href="https://znizn.github.io/myweb/feed.xml" rel="self" />
     <link href="https://znizn.github.io/myweb" />
-    <updated>2021-07-05T15:22:18+08:00</updated>
+    <updated>2021-07-05T16:27:33+08:00</updated>
     <author>
         <name>ZHUO</name>
     </author>
     <id>https://znizn.github.io/myweb</id>
 
+    <entry>
+        <title>Publii 配置 GitHub Pages 静态网站</title>
+        <author>
+            <name>ZHUO</name>
+        </author>
+        <link href="https://znizn.github.io/myweb/publii-pei-zhi-github-pages-jing-tai-wang-zhan.html"/>
+        <id>https://znizn.github.io/myweb/publii-pei-zhi-github-pages-jing-tai-wang-zhan.html</id>
+            <category term="静态网站"/>
+            <category term="实用性-阐述规则"/>
+            <category term="Publii"/>
+
+        <updated>2021-07-05T10:42:29+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://znizn.github.io/myweb/media/posts/4/Snipaste_2021-07-03_16-48-30.png" alt="" />
+                    设置 GitHub token 配置 Publii 之前需要先设置用于 Publii 使用的 GitHub token，添加 token 方式如下： 创建一个用于存放 GitHub Pages 的仓库，需要注意要添加一个 ReadMe markdown 文件，因为 Publii 的初始化需要仓库中至少有一个文件 创建 GitHub&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://znizn.github.io/myweb/media/posts/4/Snipaste_2021-07-03_16-48-30.png" alt="" />
+                <h2 id="设置-github-token">设置 GitHub token</h2>
+<p>配置 Publii 之前需要先设置用于 Publii 使用的 GitHub token，添加 token 方式如下：</p>
+<p><figure class="post__image"><img loading="lazy" src="https://ftp.bmp.ovh/imgs/2021/07/4cc183aed648937a.gif" data-is-external-image="true"  alt="设置GitHub token" /></figure></p>
+<h2 id="创建-github-仓库">创建 GitHub 仓库</h2>
+<p>创建一个用于存放 GitHub Pages 的仓库，需要注意要添加一个 ReadMe markdown 文件，因为 Publii 的初始化需要仓库中至少有一个文件</p>
+<p><figure class="post__image"><img loading="lazy" src="https://ftp.bmp.ovh/imgs/2021/07/08e69dcc036942a3.gif" data-is-external-image="true"  alt="创建 GitHub 仓库" /></figure></p>
+<h2 id="publii-服务器设置">Publii 服务器设置</h2>
+<p>创建 GitHub 仓库并创建 GitHub Pages，按照 GitHub Pages 的创建方式配置网站，其中 Token 选择上面创建的 Token</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20210702185202322.png" data-is-external-image="true"  alt="image-20210702185202322" /></figure></p>
+<p>完成设置后点击保存，并测试与网络的连接。当测试成功后点击左侧 <code>Sync Your Website</code> 将文件配置到 GitHub 上。</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20210703163936267.png" data-is-external-image="true"  alt="image-20210703163936267" /></figure></p>
+<h2 id="修改主题">修改主题</h2>
+<ol>
+<li><p>在 <a href="https://marketplace.getpublii.com/">主题网站</a> 选择喜欢的主题下载，其中的 Freebies 是免费的主题</p>
+<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20210703164401748.png" data-is-external-image="true"  alt="image-20210703164401748" /></figure></p>
+</li>
+<li><p>将主题文件解压后复制到 Publii 的主题保存目录下（<code>C:\Users\USER NAME\Documents\Publii\themes</code>）</p>
+</li>
+<li><p>重启 Publii 后可以在【Site settings】中选择刚才复制的主题</p>
+<p><figure class="post__image"><img loading="lazy" src="https://ftp.bmp.ovh/imgs/2021/07/042db264e6339775.gif" data-is-external-image="true"  alt="设置Publii主题" /></figure></p>
+</li>
+</ol>
+<hr>
+<blockquote>
+<p><strong>参考资料</strong>：</p>
+<ul>
+<li><a href="https://getpublii.com/docs/host-static-website-github-pages.html">Publii 官方文档</a>；</li>
+</ul>
+</blockquote>
+
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>TTRSS 阅读优化方案</title>
         <author>
@@ -21,7 +75,7 @@
             <category term="RSS Tracker"/>
             <category term="Fever"/>
 
-        <updated>2021-07-05T15:22:18+08:00</updated>
+        <updated>2021-07-05T16:27:33+08:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://znizn.github.io/myweb/media/posts/9/Snipaste_2021-07-05_15-21-33.png" alt="" />
@@ -91,60 +145,6 @@
 <li><a href="https://www.richasy.cn/document/rss/use.html">软件使用说明 | 云乡 (richasy.cn)</a>；</li>
 <li><a href="https://www.bilibili.com/video/BV1Lt4y1Q7Be">【UWP】有趣的RSS阅读器，RSS追踪全新版本上线_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili</a>；</li>
 <li><a href="https://segmentfault.com/a/1190000020180496">Tiny Tiny RSS + fever 搭建自己的 RSS 服务_前端博客 - SegmentFault 思否</a>；</li>
-</ul>
-</blockquote>
-
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Publii 配置 GitHub Pages 静态网站</title>
-        <author>
-            <name>ZHUO</name>
-        </author>
-        <link href="https://znizn.github.io/myweb/publii-pei-zhi-github-pages-jing-tai-wang-zhan.html"/>
-        <id>https://znizn.github.io/myweb/publii-pei-zhi-github-pages-jing-tai-wang-zhan.html</id>
-            <category term="静态网站"/>
-            <category term="实用性-阐述规则"/>
-            <category term="Publii"/>
-
-        <updated>2021-07-05T10:42:29+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://znizn.github.io/myweb/media/posts/4/Snipaste_2021-07-03_16-48-30.png" alt="" />
-                    设置 GitHub token 配置 Publii 之前需要先设置用于 Publii 使用的 GitHub token，添加 token 方式如下： 创建一个用于存放 GitHub Pages 的仓库，需要注意要添加一个 ReadMe markdown 文件，因为 Publii 的初始化需要仓库中至少有一个文件 创建 GitHub&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://znizn.github.io/myweb/media/posts/4/Snipaste_2021-07-03_16-48-30.png" alt="" />
-                <h2 id="设置-github-token">设置 GitHub token</h2>
-<p>配置 Publii 之前需要先设置用于 Publii 使用的 GitHub token，添加 token 方式如下：</p>
-<p><figure class="post__image"><img loading="lazy" src="https://ftp.bmp.ovh/imgs/2021/07/4cc183aed648937a.gif" data-is-external-image="true"  alt="设置GitHub token" /></figure></p>
-<h2 id="创建-github-仓库">创建 GitHub 仓库</h2>
-<p>创建一个用于存放 GitHub Pages 的仓库，需要注意要添加一个 ReadMe markdown 文件，因为 Publii 的初始化需要仓库中至少有一个文件</p>
-<p><figure class="post__image"><img loading="lazy" src="https://ftp.bmp.ovh/imgs/2021/07/08e69dcc036942a3.gif" data-is-external-image="true"  alt="创建 GitHub 仓库" /></figure></p>
-<h2 id="publii-服务器设置">Publii 服务器设置</h2>
-<p>创建 GitHub 仓库并创建 GitHub Pages，按照 GitHub Pages 的创建方式配置网站，其中 Token 选择上面创建的 Token</p>
-<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20210702185202322.png" data-is-external-image="true"  alt="image-20210702185202322" /></figure></p>
-<p>完成设置后点击保存，并测试与网络的连接。当测试成功后点击左侧 <code>Sync Your Website</code> 将文件配置到 GitHub 上。</p>
-<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20210703163936267.png" data-is-external-image="true"  alt="image-20210703163936267" /></figure></p>
-<h2 id="修改主题">修改主题</h2>
-<ol>
-<li><p>在 <a href="https://marketplace.getpublii.com/">主题网站</a> 选择喜欢的主题下载，其中的 Freebies 是免费的主题</p>
-<p><figure class="post__image"><img loading="lazy" src="https://gitee.com/zhuo1121/pictures/raw/master/image-20210703164401748.png" data-is-external-image="true"  alt="image-20210703164401748" /></figure></p>
-</li>
-<li><p>将主题文件解压后复制到 Publii 的主题保存目录下（<code>C:\Users\USER NAME\Documents\Publii\themes</code>）</p>
-</li>
-<li><p>重启 Publii 后可以在【Site settings】中选择刚才复制的主题</p>
-<p><figure class="post__image"><img loading="lazy" src="https://ftp.bmp.ovh/imgs/2021/07/042db264e6339775.gif" data-is-external-image="true"  alt="设置Publii主题" /></figure></p>
-</li>
-</ol>
-<hr>
-<blockquote>
-<p><strong>参考资料</strong>：</p>
-<ul>
-<li><a href="https://getpublii.com/docs/host-static-website-github-pages.html">Publii 官方文档</a>；</li>
 </ul>
 </blockquote>
 
